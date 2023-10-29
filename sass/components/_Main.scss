@@ -1,0 +1,41 @@
+.main-article {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.main-article__header{
+    text-transform: uppercase;
+    font-size: calc(var(--index) * 1.8);
+    letter-spacing: calc(var(--index) / 7.5);
+    transform: calc(--main-article-transform);
+    will-change: transform;
+    transition: var(--transition);
+}
+
+.main-article_paragraph{
+    max-width: calc(var(--index) * 30);
+    font-size: calc(var(--index) * .9);
+    margin-top: calc(var(--index) / 1.25);
+    transform: calc(--main-article-transform);
+    will-change: transform;
+    transition: var(--transition);
+}
+
+.content{
+    will-change: transform;
+}
+
+.copy{
+    position: absolute;
+    bottom: calc(var(--index) * 2.5);
+    opacity: .45;
+    font-size: calc(var(--index) * .75);
+    letter-spacing: calc(var(--index) / 37.5);
+}
