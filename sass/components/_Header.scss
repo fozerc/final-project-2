@@ -14,7 +14,7 @@ body{
     z-index: 100;
     width: 100%;
     height: calc(var(--index) * 10);
-    background-image: url(../img/ground.png);
+    background-image: url(/image-backgrond/ground.png);
     bottom: calc(var(--index) * -4.5);
     background-size: cover;
     background-repeat: no-repeat;
